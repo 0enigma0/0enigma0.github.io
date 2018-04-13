@@ -1,0 +1,41 @@
+body {
+  font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 25px;
+  color: #484848;
+  background-color: #527dc4;
+}
+
+#edu, #exp, #hobbies {
+  text-decoration: none;
+  color:inherit;
+  position: fixed;
+  background: #9198a3;
+  border-radius: 50%;
+  height:150px;
+  width:150px;
+  font-size: 25px;
+  color: #484848;
+  line-height: 150px;
+  text-align: center;
+}
+
+#edu {
+  top: 250px;
+  left: 150px;
+}
+
+#exp {
+  top: 250px;
+  left: 520px;
+}
+
+#hobbies {
+  top: 250px;
+  left: 910px;
+}
+
+p {
+  top: 100px;
+  left: 350px;
+  position: relative;
+}
