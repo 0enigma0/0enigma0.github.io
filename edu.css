@@ -1,0 +1,19 @@
+body {
+  font-family: "Pf Dintext","Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  color: #484848;
+  background-color: #f2f5f2;
+}
+
+h3, p {
+  position: relative;
+  left: 450px;
+  top: 10px;
+}
+
+img {
+  position: relative;
+  top: 120px;
+  left: 300px;
+}

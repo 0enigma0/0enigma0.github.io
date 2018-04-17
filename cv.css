@@ -1,15 +1,15 @@
 body {
-  font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: "Pf Dintext","Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+  font-weight: 600;
   font-size: 25px;
   color: #484848;
-  background-color: #527dc4;
+  background-color: #f2f5f2;
 }
 
 #edu, #exp, #hobbies {
   text-decoration: none;
   color:inherit;
   position: fixed;
-  background: #9198a3;
   border-radius: 50%;
   height:150px;
   width:150px;
@@ -22,20 +22,30 @@ body {
 #edu {
   top: 250px;
   left: 150px;
+  background: #9198a3;
+  /*background: #FF9933;*/
 }
 
 #exp {
   top: 250px;
   left: 520px;
+  background: #49c5b6;
 }
 
 #hobbies {
   top: 250px;
   left: 910px;
+  background: #fa6e8c;
 }
 
 p {
   top: 100px;
   left: 350px;
+  position: relative;
+}
+
+img {
+  top: 1px;
+  left: 180px;
   position: relative;
 }

@@ -1,0 +1,52 @@
+body {
+  font-family: "Pf Dintext","Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  color: #484848;
+  background-color: #f2f5f2;
+}
+
+.collapsible {
+  background-color: #f2f5f2;
+  font-family: "Pf Dintext","Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  color: #484848;
+  position:relative;
+  left: 320px;
+  top:190px;
+  cursor: pointer;
+  padding: 18px;
+  width: 50%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+    background-color: #bba2bc;
+}
+
+.content {
+    padding: 0 18px 18px;
+    width: 47.2%;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+    position:relative;
+    left: 320px;
+    top:190px;
+}
+
+.collapsible:after {
+    content: '\002B'; /* Unicode character for "plus" sign (+) */
+    font-size: 18px;
+    color: #eb6f93;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: '\2212'; /* Unicode character for "minus" sign (-) */
+}
