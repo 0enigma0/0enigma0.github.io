@@ -1,0 +1,34 @@
+body {
+  font-family: "Pf Dintext","Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  color: #484848;
+  background-color: #f2f5f2;
+}
+
+#cook, #game {
+  border-radius: 50%;
+  height:150px;
+  width:150px;
+  font-size: 25px;
+  color: #484848;
+  line-height: 150px;
+  text-align: center;
+  text-decoration: none;
+  color:inherit;
+  position: fixed;
+}
+
+#cook {
+  top: 210px;
+  left: 350px;
+  background: #35c793;
+}
+
+
+#game {
+  top: 210px;
+  left: 750px;
+  border-radius: 50%;
+  background: #FF5A5F;
+}
